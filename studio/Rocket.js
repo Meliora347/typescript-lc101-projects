@@ -3,6 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Rocket = void 0;
 var Rocket = /** @class */ (function () {
     function Rocket(name, totalCapacityKg) {
+        this.cargoItems = [];
+        this.astronauts = [];
         this.name = name;
         this.totalCapacityKg = totalCapacityKg;
     }
